@@ -1,0 +1,98 @@
+ 1  yum update
+    2  sudo yum update
+    3  yum install docker
+    4  systemctl status docker
+    5  systemctl start docker
+    6  systemctl status docker
+    7  docker ps
+    8  docker image
+    9  docker pull httpd
+   10  docker image
+   11  docker images
+   12  docker pull ubuntu
+   13  docker images
+   14  docker ps
+   15  docker ps -a
+   16  docker run -d -it 7860e7628717
+   17  docker ps
+   18  docker run -d -p 80:80 7860e7628717
+   19  docker rm 7860e7628717
+   20  docker ps
+   21  docker rm 127597dd4adb
+   22  docker ps
+   23  docker kill 7860e7628717
+   24  docker ps
+   25  docker ps
+   26  docker 6d531f5005f6
+   27  docker --help
+   28  docker ps
+   29  docker stop 6d531f5005f6
+   30  docker ps
+   31  docker rm 127597dd4adb
+   32  docker ps
+   33  docker rm 127597dd4adb
+   34  docker rm 7860e7628717
+   35  docker ps
+   36  docker ps -a
+   37  docker rm 6d531f5005f6
+   38  docker stop 127597dd4adb
+   39  docker rm 127597dd4adb
+   40  docker ps
+   41  docker images
+   42  docker run -d -p 80:80 7860e7628717
+   43  docker ps
+   44  docker ps -a
+   45  docker images
+   46   docker run -d -it c6b84b685f35
+   47  docker ps
+   48  docker ps -a
+   49  docker kill a74885c7fa5d
+   50  docker ps
+   51  docker rm a74885c7fa5d
+   52  docker ps -a
+   53  docker kill 3c5de55edb3f
+   54  docker rm 3c5de55edb3f
+   55  docker ps -a
+   56  history
+   57  docker
+   58  docker images
+   59  sudo systemctl status docker
+   60  sudo systemctl start docker
+   61  sudo systemctl status docker
+   62  sudo systemctl enable docker
+   63  docker images
+   64  docker rmi 7860e7628717
+   65  docker rmi c6b84b685f35
+   66  docker images
+   67  mkdir web
+   68  cdd web
+   69  cd web
+   70  vi dockerfile
+   71  vi index.html
+   72  docker images
+   73  vi dockerfile
+   74  ll
+   75  docker build . -t dockerwebsite:v1
+   76  docker images
+   77  docker run -d -it -p 1234:80 9640845a2955
+   78  docker ps
+   79  docker tag dockerwebsite:v1 nov81995/govinda:webv1
+   80  docker images
+   81  docker login
+   82  docker push nov81995/govinda:webv1
+   83  docker images
+   84  docker rmi 9640845a2955
+   85  docker ps
+   86  docker stop ecee8593aca6
+   87  docker rm ecee8593aca6
+   88  docker rmi 9640845a2955
+   89  docker rmi 9640845a2955
+   90  docker images
+   91  docker ps -a
+   92  docker rmi 9640845a2955 -f
+   93  docker rmi 9640845a2955 -f
+   94  docker rmi 5d0da3dc9764 -f
+   95  docker images
+   96  docker pull nov81995/govinda:webv1
+   97  docker images
+   98  history
